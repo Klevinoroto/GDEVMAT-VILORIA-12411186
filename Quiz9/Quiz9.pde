@@ -39,7 +39,10 @@ void draw()
   for (Walker w : walkers) 
   {
     
-    //PVector gravity = new PVector(0.15 * w.mass, 0);
+    // Bonus
+    // PVector gravity = new PVector(0.0025 * w.mass, 0);
+    // w.applyForce(gravity);
+    
     w.applyForce(acceleration);
     
     float mew = 0.01f; 
